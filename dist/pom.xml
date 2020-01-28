@@ -87,7 +87,11 @@
           <configurationDirectory>conf</configurationDirectory>
           <copyConfigurationDirectory>true</copyConfigurationDirectory>
           <includeConfigurationDirectoryInClasspath>true</includeConfigurationDirectoryInClasspath>
-          <extraJvmArguments>-Xms128m -Dlog4j.configurationFile=../conf/log4j2.xml
+          <extraJvmArguments>
+            -Xms128m -Dlog4j.configurationFile=../conf/log4j2.xml
+            --add-opens=java.base/java.nio=ALL-UNNAMED
+            --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED
+            --add-opens=java.base/java.lang=ALL-UNNAMED
           </extraJvmArguments>
           <repositoryLayout>flat</repositoryLayout>
           <useWildcardClassPath>true</useWildcardClassPath>
