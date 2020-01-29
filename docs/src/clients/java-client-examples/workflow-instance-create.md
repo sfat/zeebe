@@ -10,5 +10,5 @@
 [Source on github](https://github.com/zeebe-io/zeebe/tree/{{commit}}/samples/src/main/java/io/zeebe/example/workflow/WorkflowInstanceCreator.java)
 
 ```java
-{{#include ../../../samples/src/main/java/io/zeebe/example/workflow/WorkflowInstanceCreator.java}}
+{{#include ../../../../samples/src/main/java/io/zeebe/example/workflow/WorkflowInstanceCreator.java}}
 ```

@@ -14,5 +14,5 @@
 [Source on github](https://github.com/zeebe-io/zeebe/tree/{{commit}}/samples/src/main/java/io/zeebe/example/data/HandleVariablesAsPojo.java)
 
 ```java
-{{#include ../../../samples/src/main/java/io/zeebe/example/data/HandleVariablesAsPojo.java}}
+{{#include ../../../../samples/src/main/java/io/zeebe/example/data/HandleVariablesAsPojo.java}}
 ```
